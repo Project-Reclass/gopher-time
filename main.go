@@ -14,7 +14,8 @@ func main () {
 	fmt.Println("Please specify a url")
 	os.Exit(1)
 	}	
-	must(getAndSaveURL(os.Args[1], "index.html"))
+//	must(getAndSaveURL(os.Args[1], "index.html"))
+	must(getAndSaveURL(os.Args[1], "index.jpg"))
 }
 
 func must(err error) {
